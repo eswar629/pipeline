@@ -6,7 +6,7 @@ node {
         sh 'git clone https://github.com/eswar629/pipeline.git'
 	}
 
-	stage('Terraform') {
+	/*stage('Terraform') {
 		echo 'Terraform init'
         sh 'terraform init'
         sh 'terraform plan --var-file test.tfvars'
@@ -16,5 +16,5 @@ node {
 	stage('Deploy') {
 		echo 'Deploying....'
         sh 'terraform apply --var-file test.tfvars'
-	}
+	}*/
 }
