@@ -1,0 +1,8 @@
+# aws_access_key = ""
+# aws_secret_key = ""
+aws_region = "us-east-1"
+vpc_cidr = "10.0.0.0/16"
+vpc_name = "my_vpc"
+IGW_name = "my_igw"
+public_subnet1_cidr = "10.0.1.0/24"
+public_subnet1_name = "my_sub"
