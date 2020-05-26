@@ -4,7 +4,7 @@ node {
 		echo 'cloning....'
 	sh 'rm -rf pipe*'
         sh 'git clone https://github.com/eswar629/pipeline.git pipeproj'
-	sh ' cp  /var/lib/jenkins/workspace/pipeline/pipeproj/* /var/lib/jenkins/workspace/pipeline1'
+	sh ' cp  /var/lib/jenkins/workspace/pipeline/pipeproj/* /var/lib/jenkins/workspace/pipeline'
 	}
 
 	stage('Terraform') {
